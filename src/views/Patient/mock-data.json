@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "Patient_id": "M001 ",
+      "Name": "Aman",
+      "Age": "72 ",
+      "Adress": "Noida",
+      "PhoneNumber": "5689456545 ",
+      "LastVisit": "13 June"
+    },
+    {
+        "id": 2,
+        "Patient_id": "M002 ",
+        "Name": "Harish",
+        "Age": "45 ",
+        "Adress": "Delhi",
+        "PhoneNumber": "9756850021 ",
+        "LastVisit": "12June"
+    },
+    {
+        "id": 3,
+        "Patient_id": "M003 ",
+        "Name": "Dewesh",
+        "Age": "23 ",
+        "Adress": "Noida",
+        "PhoneNumber": "9856845125 ",
+        "LastVisit": "11 June"
+    }
+      
+   
+]
+  

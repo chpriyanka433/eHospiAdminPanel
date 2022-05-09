@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+    <html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="CoreUI for React - Open Source Bootstrap Admin Template">
+  <meta name="author" content="Łukasz Holeczek">
+  <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,CSS,SCSS,HTML,RWD,Dashboard,React">
+  <title>eHospi Admin pannel</title>
+  <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+ <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">-->
+
+  <!--Bootstrapicons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="asset/plugins/bootstrap/css/bootstrap.min.css/>
+    <link rel=" stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" />
+  <link rel="stylesheet" href="asset/plugins/morrisjs/morris.css" />
+  <!-- Custom Css -->
+  <link rel="stylesheet" href="asset/css/main.css" />
+
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="root"></div>
+
+  <!--dashboard-->
+  <script src="../src/asset/bundles/libscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+  <script src="../src/asset/bundles/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+  <script src="../src/asset/bundles/chartscripts.bundle.js"></script> <!-- Chart Plugins Js -->
+  <script src="../src/asset/bundles/sparklinescripts.bundle.js"></script> <!-- Chart Plugins Js -->
+  <script src="../src/asset/bundles/mainscripts.bundle.js"></script><!-- Custom Js -->
+  <script src="../src/asset/js/pages/index.js"></script>
+  <script src="../src/asset/js/pages/charts/sparkline.min.js">
+  <script src="../src/asset/plugins/Autosize/autosize.js"/></script>
+  <!--/ Autosize Plugin Js -->
+  <script src="../src/asset/plugins/bootstrap-material-datetimepicker/js/bootstrap-material-datetimepicker.js"></script>
+  <!--add doctor-->
+  <script src="../src/asset/bundles/fullcalendarscripts.bundle.js"></script>
+  <!--/ calender javascripts -->
+  <script src="../src/asset/js/pages/calendar/calendar.js"></script>
+  <!--patient profile-->
+  <!--add patient-->
+  <script src="../src/asset/bundle/vendorscripts.bundle.js"></script> <!-- Lib Scripts Plugin Js -->
+  <script src="../src/asset/plugins/autosize/autosize.js"></script> <!-- Autosize Plugin Js -->
+  <script src="../src/asset/plugins/momentjs/moment.js"></script> <!-- Moment Plugin Js -->
+  <script src="../src/asset/plugins/dropzone/dropzone.js"></script> <!-- Dropzone Plugin Js -->
+
+  <!-- Bootstrap Material Datetime Picker Plugin Js -->
+  <script src="../src/asset/js/pages/forms/basic-form-elements.js"></script>
+
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>

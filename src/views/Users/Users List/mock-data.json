@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+        "fullname": "deepak",
+        "dob": "10/1/1112",
+        "phone": "789455",
+        "gender": "male",
+        "email": "abc@gmail.com"
+    }
+    
+]

@@ -1,0 +1,19 @@
+[
+    {
+      "id": 1,
+      "Doctor_Name": "Dr. Aman Dubey ",
+      "Department": "Cardiology",
+      "AvailableDys": "Sunday ",
+      "AvailableTime": "10:00 AM - 7:00 PM"
+    },
+    {
+        "id": 2,
+        "Doctor_Name": "Dr Ravi ",
+        "Department": "Cardiology",
+        "AvailableDys": "Monday",
+        "AvailableTime": "10:00 AM - 7:00 PM"
+      }
+   
+   
+]
+  

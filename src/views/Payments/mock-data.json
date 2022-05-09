@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "Bill_No": "B0 ",
+      "Bill_Date": "02/21/2017",
+      "Patient": "Aman ",
+      "Doctor": "Dr Aryan pandey",
+      "Amount": "2000"
+    },
+    {
+        "id": 2,
+        "Bill_No": "B1 ",
+        "Bill_Date": "diwesh",
+        "Patient": "Raju ",
+        "Doctor": "Dr. Raju Pandey",
+        "Amount": "3000"
+      }
+      
+   
+]
